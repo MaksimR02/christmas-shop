@@ -1,0 +1,33 @@
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 82px;
+}
+
+.block-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 12px 20px;
+    gap: 48px;
+    align-items: center;
+}
+
+
+
+.logo,
+.nav-bar {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--dark);
+}
