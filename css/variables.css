@@ -1,0 +1,11 @@
+:root {
+    /*color*/
+    --color-primary: #FF4646 ;
+    --color-secondary: #FFFFFF ;
+    --tag-purple: #4361FF;
+    
+    /*fonts*/
+    --font-family: "Montserrat", sans-serif;
+    --second-family: "", sans-serif;
+
+}
