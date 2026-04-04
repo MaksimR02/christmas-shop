@@ -1,0 +1,21 @@
+.container-about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    background: var(--static-white);
+    border-radius: 20px;
+}
+
+.about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+    padding: 0 152px 0 60px;
+    flex: 1;
+}
+
+.picture-about{
+    border-radius: 20px;
+}
