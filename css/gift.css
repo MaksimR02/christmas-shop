@@ -24,3 +24,8 @@
     display: flex;
     flex-wrap: wrap;
 }
+
+.gift-bar > div:hover{
+    background-color: var(--static-white-20);
+    color: var(--static-white);
+}

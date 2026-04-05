@@ -31,3 +31,8 @@
 .tag-purple{
     color: var(--tag-purple);
 }
+
+.card:hover{
+    color: var(--primary);
+    cursor: pointer;
+}
