@@ -26,20 +26,15 @@
     padding: 60px 0;
 }
 
-.caption {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0.05em;
-    text-align: center;
-    color: var(--static-white);
-}
-
 .hero-button {
     background-color: var(--dark);
     padding: 20px 32px;
     border-radius: 20px;
     color: var(--static-white);
+}
+
+.hero-button:hover{
+    background-color: var(--static-white);
+    color: var(--dark);
 }
 

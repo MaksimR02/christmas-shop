@@ -1,0 +1,26 @@
+.gits {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.gift-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-gift-bar {
+    border-radius: 12px;
+    padding: 12px 20px;
+    
+}
+.active{
+    background: var(--static-white-20);
+}
+
+.card-list{
+    display: flex;
+    flex-wrap: wrap;
+}

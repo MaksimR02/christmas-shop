@@ -24,31 +24,36 @@
             <a href="#top" class="logo">
                 <img class="icon-logo" src="assets/icons/Vector.svg" alt="logo">
             </a>
-            <h4 class="logo"><a href="#top">the gifts</a></h4>
+            <div>
+                <h4 class="logo"><a href="#top">the gifts</a></h4>
+            </div>
         </div>
 
         <div class="nav-bar">
-            <div class="gift">gifts</div>
-            <div class="about"><a href="#about">about</a></div>
-            <div class="best"><a href="#best">best</a></div>
-            <div class="nav-contact"><a href="#footer">contacts</a></div>
+            <div class="nav-item"><a href="gift.html">gifts</a></div>
+            <div class="nav-item"><a href="#about">about</a></div>
+            <div class="nav-item"><a href="#best">best</a></div>
+            <div class="nav-item"><a href="#footer">contacts</a></div>
         </div>
 
     </div>
 
-    <div class="main container">
+    <div class="container main">
         <div class="hero-section ">
             <div class="hero-content">
                 <div class="caption">Merry Christmas</div>
                 <h1 class="h1">Gift yourself <br> the magic of new <br> possibilities</h1>
-                <button class="hero-button">
-                    <h4 class="h4">Explore Magical Gifts</h4>
-                </button>
+                <a href="gift.html">
+                    <button class="hero-button">
+                        <div>
+                            <h4 class="h4">Explore Magical Gifts</h4>
+                        </div>
+                    </button></a>
                 <div class="caption">and Happy New Year</div>
             </div>
         </div>
 
-        <div class="container-about margin-section" id="about">
+        <div class="container-about" id="about">
             <div class="about-content">
                 <div class="caption primary-color">About</div>
                 <div class="action-large">Unleash your inner superhero!</div>
@@ -60,11 +65,12 @@
             </div>
         </div>
 
-        <div class="slider-section margin-section">
+        <div class="slider-section padding-block">
             <div class="title">
                 <div class="caption">Become Happier!</div>
                 <div class="action-large">in the new 2025</div>
             </div>
+
             <div class="block-slider">
                 <div class="slider-text">live</div>
                 <img class="img-slider" src="assets/img/snowman.png" alt="picture-snowman">
@@ -74,9 +80,14 @@
                 <img class="img-slider" src="assets/img/christmas-tree-ball.png" alt="picture-snowman">
             </div> <!-- TODO стрелки доделать  -->
 
+            <div class="arrow">
+                <img src="assets/svg/aroow-left.svg" alt="picture-arrow-left">
+                <img src="assets/svg/arrow-right.svg" alt="picture-arrow-right">
+            </div>
+
         </div>
 
-        <div class="container-gift margin-section" id="best">
+        <div class="container-gift padding-block " id="best">
             <div class="title">
                 <div class="caption">Best Gifts</div>
                 <div class="action-large">especially for you</div>
@@ -119,16 +130,20 @@
         </div>
 
         <div class="section-cta ">
-        
+
             <div class="cta-content ">
                 <h2 class="h2">
                     Ready to start your <br> journey to a better <br> version of yourself?
                 </h2>
+                <a href="gift.html">
                 <button class="hero-button">
-                    <h4 class="h4">Explore Magical Gifts</h4>
+                    <div>
+                        <h4 class="h4"><a href="gift.html">Explore Magical Gifts</a></h4>
+                    </div>
                 </button>
+            </a>
                 <div class="block-timer">
-                    
+
                     <div class="caption">The New Year is Coming Soon...</div>
 
                     <div class="timer">
@@ -161,40 +176,59 @@
                 </div>
             </div>
         </div>
-
-        <footer class="footer" id="footer">
-            <div class="block-contacts">
-                <div class="contact-item">
-                    <img class="img-contacts" src="assets/svg/santa-claus.svg" alt="">
-                    <div class="action-large">+375 (29) 111-22-33</div>
-                    <h3 class="h3">Call Us</h3>
-                </div>
-                <div class="contact-item">
-                    <img class="img-contacts" src="assets/svg/christmas-tree.svg" alt="">
-                    <div class="action-large">Magic forest</div>
-                    <h3 class="h3">meet us</h3>
-                </div>
-                <div class="contact-item">
-                    <img class="img-contacts" src="assets/svg/snake.svg" alt="">
-                    <div class="action-large">gifts@magic.com</div>
-                    <h3 class="h3">write us</h3>
-                </div>
-            </div>
-
-            <div class="block-messengers">
-                <div class="messengers">
-                    <img src="assets/svg/telegram.svg" alt="icon-telegram">
-                    <img src="assets/svg/facebook.svg" alt="icon-facebook">
-                    <img src="assets/svg/instagram.svg" alt="icon-instagram">
-                    <img src="assets/svg/twitter.svg" alt="icon-twitter">
-                </div>
-                <div class="paragraph black">© Copyright 2025, All Rights Reserved</div>
-                <div class="caption black"><a href="https://rs.school/courses/javascript-preschool-ru">Made in Rolling Scopes School</a></div>
-            </div>
-        </footer>
-
-
     </div>
+
+    <footer class="footer container" id="footer padding-block ">
+        <div class="block-contacts">
+            <div class="card-contact">
+                <a href="tel:+375291112233" class="a-footer">
+                    <div class="contact-item">
+                        <img class="img-contacts" src="assets/svg/santa-claus.svg" alt="picture-santa">
+                        <div class="action-large ">+375 (29) 111-22-33</div>
+                        <h3 class="h3">Call Us</h3>
+                    </div>
+                </a>
+            </div>
+
+
+            <div class="card-contact">
+                <a class="a-footer"
+                    href="https://www.google.com/maps/@51.5173302,46.0838814,3a,75y,172.06h,90.85t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgIDqherZeg!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAFfmt2a-4nd6BRWICSt-x8SPOOaTMstvXsOlMEpcivvaaw2WWBfzcv19Ww1nZaesm0DPF5uEU5qFhz6AxJCyDgBkfL9a1NJv1DALP4nTRN8TdKcw6R88hcYOHBpQETfvZCVCg_m7S4Wo%3Dw900-h600-k-no-pi-0.8531971121417996-ya349.55671391404906-ro0-fo100!7i12000!8i6000?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D">
+                    <div class="contact-item">
+                        <img class="img-contacts" src="assets/svg/christmas-tree.svg" alt="picture-cristmas-tree">
+                        <div class="action-large ">Magic forest</div>
+                        <h3 class="h3">meet us</h3>
+                    </div>
+                </a>
+            </div>
+
+            <div class="card-contact">
+                <a href="mailto:gifts@magic.com" class="a-footer">
+                    <div class="contact-item">
+                        <img class="img-contacts" src="assets/svg/snake.svg" alt="picture-snake">
+                        <div class="action-large ">gifts@magic.com</div>
+                        <h3 class="h3">write us</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="block-messengers">
+            <div class="messengers">
+                <img src="assets/svg/telegram.svg" alt="icon-telegram">
+                <img src="assets/svg/facebook.svg" alt="icon-facebook">
+                <img src="assets/svg/instagram.svg" alt="icon-instagram">
+                <img src="assets/svg/twitter.svg" alt="icon-twitter">
+            </div>
+            <div class="paragraph black">© Copyright 2025, All Rights Reserved</div>
+            <div class="caption"><a href="https://rs.school/courses/javascript-preschool-ru">Made in Rolling
+                    Scopes School</a></div>
+        </div>
+    </footer>
+
+
+
 </body>
 
 </html>

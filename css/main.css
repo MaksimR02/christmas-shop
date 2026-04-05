@@ -7,6 +7,7 @@
 @import url(section-gift.css);
 @import url(section-cta.css);
 @import url(footer.css);
+@import url(gift.css);
 
 
 
@@ -17,7 +18,7 @@
 
 .main {
     background: url(../assets/bg/bg-snow.png) repeat, var(--primary);
-    border-radius: 20px 20px 0 0;
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -68,7 +69,6 @@
     font-size: 24px;
     line-height: 100%;
     letter-spacing: 0.05em;
-
 }
 
 .action-large {
@@ -78,7 +78,16 @@
     line-height: 152%;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--dark);
+}
+
+.action-small {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--static-white);
 }
 
 .paragraph {
@@ -102,6 +111,7 @@
     color: var(--primary);
 }
 
-.margin-section {
-    margin: 60px 82px;
+.padding-block {
+    padding: 60px 82px;
 }
+

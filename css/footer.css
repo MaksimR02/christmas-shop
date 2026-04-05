@@ -12,15 +12,11 @@
 }
 
 .contact-item{
-    border-radius: 20px;
-    background: var(--content-background);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 12px;
-    padding: 20px 0;
-        flex: 1;
-}
+} 
 
 .img-contacts{
     width: 80px;
@@ -37,3 +33,35 @@
     gap: 12px;
     align-items: center;
 }
+
+.messengers{
+    display: flex;
+    gap: 12px;
+}
+
+.card-contact{
+    border-radius: 20px;
+    background: var(--content-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+    flex: 1;
+}
+.messengers > img{
+    cursor: pointer;
+}
+
+.messengers > img:hover{
+    color: var(--primary);
+}
+
+.caption > a:hover{
+    color: var(--primary);
+}
+
+.a-footer:hover{
+    color: var(--primary);
+}
+

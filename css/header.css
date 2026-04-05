@@ -15,8 +15,7 @@
 
 .nav-bar{
     display: flex;
-    padding: 12px 20px;
-    gap: 48px;
+    gap: 8px;
     align-items: center;
 }
 
@@ -38,4 +37,14 @@
 
 .nav-bar > div{
     cursor: pointer;
+}
+
+.nav-bar > div:hover{
+     background-color: var(--primary-10);
+    color: var(--primary);
+}
+
+.nav-item{
+    padding: 12px 20px;
+    border-radius: 12px;
 }

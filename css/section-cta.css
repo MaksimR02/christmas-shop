@@ -1,7 +1,7 @@
 .section-cta{
     background: url("../assets/bg/bg-forest.png") center / 100% 100% no-repeat;
     overflow: hidden;
-    background-size: contain;
+    
     border-radius: 20px;
 }
 

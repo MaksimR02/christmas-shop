@@ -1,3 +1,9 @@
+.slider-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 .title{
     display: flex;
     flex-direction: column;
@@ -12,6 +18,7 @@
 .block-slider{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 
 .img-slider{
@@ -21,4 +28,10 @@
     flex-shrink: 0;
     object-fit: cover;
     overflow: hidden;
+}
+
+.arrow{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
 }
