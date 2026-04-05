@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    background-color: var(--static-white);
+    padding: 60px 82px;
+}
+
+.block-contacts{
+    display: flex;
+    gap: 12px;
+}
+
+.contact-item{
+    border-radius: 20px;
+    background: var(--content-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 0;
+        flex: 1;
+}
+
+.img-contacts{
+    width: 80px;
+    height: 76px;
+}
+
+.black{
+    color: var(--dark);
+}
+
+.block-messengers{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+}

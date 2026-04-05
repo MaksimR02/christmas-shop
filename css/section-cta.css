@@ -1,0 +1,46 @@
+.section-cta{
+    background: url("../assets/bg/bg-forest.png") center / 100% 100% no-repeat;
+    overflow: hidden;
+    background-size: contain;
+    border-radius: 20px;
+}
+
+.cta-content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 180px 0;
+}
+
+.block-timer{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.timer {
+   display: flex;
+   border-radius: 20px;
+   padding: 8px 12px 12px;
+   width: 344px;
+   height: 72px;
+   background: var(--static-white-40);
+   align-items: center;
+}
+
+.timer-item {
+    width: 80px;
+    
+}
+
+.timer-label{
+    color: var(--static-white);
+}
+
+.timer-line {
+    width: 1px;
+    height: 20px;
+    background: var(--static-white-40);
+    margin: 0 8px;
+}
