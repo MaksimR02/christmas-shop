@@ -1,27 +1,28 @@
-.slider-section{
+.slider-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 60px 100px;
 }
 
-.title{
+.title {
     display: flex;
     flex-direction: column;
     gap: 12px;
     align-items: center;
 }
 
-.title > div{
+.title>div {
     color: var(--static-white);
 }
 
-.block-slider{
+.block-slider {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.img-slider{
+.img-slider {
     border-radius: 20px;
     width: 200px;
     height: 200px;
@@ -30,12 +31,24 @@
     overflow: hidden;
 }
 
-.arrow{
+.arrow {
     display: flex;
     gap: 20px;
     justify-content: end;
 }
 
-.arrow img{
+.arrow img {
     cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    .arrow {
+        padding-right: 8px;
+    }
+
+    .slider-section{
+        padding: 60px 0;
+    }
 }

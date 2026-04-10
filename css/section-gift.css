@@ -36,3 +36,11 @@
     color: var(--primary);
     cursor: pointer;
 }
+
+@media (max-width: 768px){
+
+    .card-list{
+        justify-content: center;
+    }
+}
+

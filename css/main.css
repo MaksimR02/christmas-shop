@@ -116,3 +116,9 @@
     padding: 60px 82px;
 }
 
+@media (max-width: 768px) {
+
+    .padding-block {
+        padding: 60px 8px;
+    }
+}
