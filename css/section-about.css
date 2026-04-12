@@ -33,7 +33,7 @@
     }
 
     .about-img {
-        width: 376px;
+        max-width: 376px;
         height: 528px;
         overflow: hidden;
         border-radius: 20px;
@@ -47,4 +47,20 @@
         object-fit: cover;
     }
 
+}
+
+@media (max-width: 380px) {
+    .container-about {
+        flex-direction: column;
+        display: block;
+    }
+
+    .picture-about {
+        width: 364px;
+        height: 100%;
+    }
+
+    .about-img {
+        width: 100%;
+    }
 }
