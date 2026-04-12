@@ -31,10 +31,12 @@
     color: var(--static-white);
 }
 
+.gits>h1 {
+    padding: 60px 0 0 0;
+}
+
 @media (max-width: 380px) {
-    .gits>h1 {
-        padding: 60px 0 0 0;
-    }
+
 
     .gift-bar {
         padding: 0 13px;
