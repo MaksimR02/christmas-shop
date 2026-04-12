@@ -14,18 +14,33 @@
 .item-gift-bar {
     border-radius: 12px;
     padding: 12px 20px;
-    
+
 }
-.active{
+
+.active {
     background: var(--static-white-20);
 }
 
-.card-list{
+.card-list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.gift-bar > div:hover{
+.gift-bar>div:hover {
     background-color: var(--static-white-20);
     color: var(--static-white);
+}
+
+@media (max-width: 380px) {
+    .gits>h1 {
+        padding: 60px 0 0 0;
+    }
+
+    .gift-bar {
+        padding: 0 13px;
+    }
+
+    .item-gift-bar {
+        padding: 12px 8px;
+    }
 }
