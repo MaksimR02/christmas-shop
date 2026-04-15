@@ -31,8 +31,30 @@
     color: var(--static-white);
 }
 
-.gits>h1 {
+.gits > div > h1 {
     padding: 60px 0 0 0;
+}
+
+.bg-garland{
+    background: url(../assets/bg/bg-garland.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+}
+
+.active{
+    color: var(--primary);
+    background-color: var(--primary-10);
+}
+
+@media (max-width: 768px) {
+    .gits .container-gift {
+        padding: 0 8px 60px 8px;
+    }
+
+    .footer{
+        padding: 67px 8px;
+    }
 }
 
 @media (max-width: 380px) {

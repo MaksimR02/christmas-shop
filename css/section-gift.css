@@ -44,4 +44,9 @@
     .card-list {
         justify-content: center;
     }
+
+    .card:hover {
+        color: none;
+        cursor: none;
+    }
 }

@@ -18,6 +18,8 @@
 
 .picture-about {
     border-radius: 20px;
+    height: 528px;
+    object-fit: cover;
 }
 
 @media (max-width: 768px) {
