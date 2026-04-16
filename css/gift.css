@@ -11,6 +11,11 @@
     gap: 8px;
 }
 
+.gift-bar .active{
+    color: var(--static-white);
+    background-color: var(--static-white-20);
+}
+
 .item-gift-bar {
     border-radius: 12px;
     padding: 12px 20px;
@@ -26,10 +31,14 @@
     flex-wrap: wrap;
 }
 
-.gift-bar>div:hover {
-    background-color: var(--static-white-20);
-    color: var(--static-white);
+@media (hover: hover) and (pointer: fine){
+    .gift-bar>div:hover {
+        background-color: var(--static-white-20);
+        color: var(--static-white);
+    }
+
 }
+
 
 .gits > div > h1 {
     padding: 60px 0 0 0;
@@ -48,23 +57,28 @@
 }
 
 @media (max-width: 768px) {
-    .gits .container-gift {
-        padding: 0 8px 60px 8px;
-    }
+    
 
-    .footer{
-        padding: 67px 8px;
-    }
+    
 }
 
 @media (max-width: 380px) {
 
 
     .gift-bar {
-        padding: 0 13px;
+        padding: 0;
+        gap: 0;
     }
 
     .item-gift-bar {
         padding: 12px 8px;
+    }
+
+    .bg-garland .h1{
+        padding: 60px 5px 0 5px;
+    }
+    
+    .card-contact{
+        padding: 22px 0;
     }
 }

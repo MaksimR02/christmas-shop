@@ -8,6 +8,7 @@
     display: flex;
     gap: 20px;
     flex-direction: column;
+    padding: 51px 82px;
 }
 
 .card {
@@ -34,19 +35,32 @@
     color: var(--tag-purple);
 }
 
-.card:hover {
-    color: var(--primary);
-    cursor: pointer;
-}
+
 
 @media (max-width: 768px) {
+
+    .gits .container-gift {
+        padding: 0 8px 60px 8px;
+    }
+
+    .container-gift {
+        padding: 51px 8px;
+    }
 
     .card-list {
         justify-content: center;
     }
+}
 
+@media (max-width: 380px) {
+    .container-gift {
+        padding: 64px 0;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
     .card:hover {
-        color: none;
-        cursor: none;
+        color: var(--primary);
+        cursor: pointer;
     }
 }

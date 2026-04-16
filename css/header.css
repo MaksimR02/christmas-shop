@@ -41,9 +41,17 @@
     cursor: pointer;
 }
 
-.nav-bar>div:hover {
-    background-color: var(--primary-10);
-    color: var(--primary);
+@media (hover: hover) and (pointer: fine) {
+    .nav-bar>div:hover {
+        background-color: var(--primary-10);
+        color: var(--primary);
+    }
+
+    .menu-item:hover {
+        background-color: var(--primary-10);
+        color: var(--primary);
+    }
+
 }
 
 .nav-item {
@@ -56,10 +64,7 @@
 }
 
 @media (max-width: 768px) {
-    .nav-bar>div:hover {
-    background-color: none;
-    color: none;
-}
+
 
     .container-header {
         padding: 0;
@@ -141,10 +146,7 @@
         border-radius: 12px;
     }
 
-    .menu-item:hover {
-        background-color: var(--primary-10);
-        color: var(--primary);
-    }
+
 
     .burger-checkbox:checked~.menu-list {
         transform: translateX(0)

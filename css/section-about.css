@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 60px 82px;
+    margin: 52px 82px;
     background: var(--static-white);
     border-radius: 20px;
 }
@@ -25,8 +25,7 @@
 @media (max-width: 768px) {
 
     .container-about {
-        margin: 60px 8px;
-
+        margin: 52px 8px;
     }
 
     .about-content {
@@ -55,6 +54,7 @@
     .container-about {
         flex-direction: column;
         display: block;
+        margin: 65px 10px;
     }
 
     .picture-about {
@@ -65,4 +65,14 @@
     .about-img {
         width: 100%;
     }
+
+    .about-content{
+        padding: 60px 20px;
+    }
+
+    .hero-button{
+        margin-bottom: 4px;
+    }
+    
+    
 }

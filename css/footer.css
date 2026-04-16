@@ -3,7 +3,7 @@
     flex-direction: column;
     gap: 60px;
     background-color: var(--static-white);
-    padding: 60px 82px;
+    padding: 61px 82px;
 }
 
 .block-contacts {
@@ -11,7 +11,7 @@
     gap: 12px;
 }
 
-.block-contacts div{
+.block-contacts div {
     text-align: center;
     overflow-wrap: anywhere;
 }
@@ -60,32 +60,39 @@
     cursor: pointer;
 }
 
-.messengers>img:hover {
-    color: var(--primary);
-}
 
-.caption>a:hover {
-    color: var(--primary);
-}
-
-.a-footer:hover {
-    color: var(--primary);
-}
 
 @media (max-width: 768px) {
     .block-contacts {
         flex-direction: column;
     }
 
+    .footer {
+        padding: 67px 8px;
+    }
+}
+
+@media (max-width: 380px) {
+    .footer {
+        padding: 77px 8px;
+        gap: 57px;
+    }
+
+    .gift-footer {
+        padding: 64px 8px;
+    }
+}
+
+@media (hover: hover) and (pointer: fine) {
     .messengers>img:hover {
-        color: none;
+        color: var(--primary);
     }
 
     .caption>a:hover {
-        color: none;
+        color: var(--primary);
     }
 
     .a-footer:hover {
-        color: none;
+        color: var(--primary);
     }
 }

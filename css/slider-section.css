@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 60px 83px;
+    padding: 68px 83px;
 }
 
 .title {
@@ -49,6 +49,20 @@
     }
 
     .slider-section{
-        padding: 60px 0;
+        padding: 68px 0;
+    }
+
+    .block-slider{
+        padding-left: 8px;
+    }
+}
+
+@media (max-width: 380px){
+    .block-slider{
+        padding-left:10px; 
+    }
+
+    .slider-section{
+        padding: 56px 0;
     }
 }
