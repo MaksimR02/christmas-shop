@@ -82,3 +82,38 @@
         padding: 22px 0;
     }
 }
+
+.scroll-top-btn {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    width: 56px;
+    height: 56px;
+    border: 1px solid var(--primary);
+    border-radius: 100px;
+    background-color: var(--static-white);
+    color: var(--primary);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 1000;
+    padding: 0;
+}
+
+.scroll-top-btn.show {
+    display: flex;
+}
+
+.scroll-top-btn svg {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+@media (min-width: 769px) {
+    .scroll-top-btn,
+    .scroll-top-btn.show {
+        display: none;
+    }
+}
