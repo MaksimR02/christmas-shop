@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 68px 83px;
+    padding: 68px 0px 68px 83px;
 }
 
 .title {
@@ -14,12 +14,6 @@
 
 .title>div {
     color: var(--static-white);
-}
-
-.block-slider {
-    display: flex;
-    gap: 20px;
-    align-items: center;
 }
 
 .img-slider {
@@ -35,6 +29,7 @@
     display: flex;
     gap: 20px;
     justify-content: end;
+    padding-right: 82px;
 }
 
 .arrow img {
@@ -42,27 +37,81 @@
 }
 
 
+.slider-btn {
+    border: solid 2px var(--static-white-20);
+    border-radius: 20px;
+    padding: 0 19px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.slider-btn-left .slider-arrow {
+    transform: rotate(180deg);
+}
+
+.slider-btn path {
+    transition: stroke 0.3s ease;
+}
+
+.slider-window {
+    width: 100%;
+    overflow: hidden;
+}
+
+.block-slider {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: transform 0.5s ease;
+}
+
+.slide {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.slider-btn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+
+    .arrow button:hover {
+        background-color: var(--static-white);
+    }
+    .arrow button:hover path {
+        stroke: var(--primary);
+    }
+}
+
 
 @media (max-width: 768px) {
     .arrow {
         padding-right: 8px;
     }
 
-    .slider-section{
+    .slider-section {
         padding: 68px 0;
     }
 
-    .block-slider{
+    .block-slider {
         padding-left: 8px;
     }
 }
 
-@media (max-width: 380px){
-    .block-slider{
-        padding-left:10px; 
+@media (max-width: 380px) {
+    .block-slider {
+        padding-left: 10px;
     }
 
-    .slider-section{
+    .slider-section {
         padding: 56px 0;
     }
 }
